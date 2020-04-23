@@ -72,7 +72,7 @@ The following configurations must be made for this project:
 <br><img src="images/TMR0-8bit-cmp-int-mcc-program.png" width="600">
 
 Demo:
-<img src="images/TMR0_8bit_cmp_int.gif" alt="Hardware Setup"/>
+<br><img src="images/TMR0_8bit_cmp_int.gif" alt="Hardware Setup"/>
 
 ## Summary
 
