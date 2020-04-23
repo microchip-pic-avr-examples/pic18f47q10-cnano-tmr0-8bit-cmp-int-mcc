@@ -57,7 +57,7 @@ The following configurations must be made for this project:
 ## Operation
 1. Connect the board to the PC.
 
-2. Open the *pic18f47q10-cnano-tmr0-clk-out-mcc.X* solution in MPLAB X IDE.
+2. Open the *pic18f47q10-cnano-tmr0-clk-out-mcc.X* project in MPLAB X IDE.
 
 3. Set *pic18f47q10-cnano-tmr0-clk-out-mcc* project as main project. Right click on the project in the *Projects* tab and click *Set as Main Project*:
 <br><img src="images/TMR0-8bit-cmp-int-mcc-main-project.png" width="600">
