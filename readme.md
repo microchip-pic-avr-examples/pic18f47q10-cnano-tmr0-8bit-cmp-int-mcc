@@ -36,18 +36,18 @@ The PIC18F47Q10 Curiosity Nano Development Board is used as the test platform.
 
 The following configurations must be made for this project:
 - Clock
-	– Oscillator Select: HFINTOSC
-	– HF Internal Clock: 1 MHz
-	– Clock Divider: 1
+ – Oscillator Select: HFINTOSC
+ – HF Internal Clock: 1 MHz
+ – Clock Divider: 1
 - TMR0
-	- TMR0 Enabled
-	- Clock Prescaler: 1:16
-	- Postscaler: 1:1
-	- Timer mode: 8-bit
-	- Clock Source: LFINTOSC
-	- Synchronization: disabled
-	- Timer period: 100 ms
-	- Timer interrupt: enabled
+ - TMR0 Enabled
+ - Clock Prescaler: 1:16
+ - Postscaler: 1:1
+ - Timer mode: 8-bit
+ - Clock Source: LFINTOSC
+ - Synchronization: disabled
+ - Timer period: 100 ms
+ - Timer interrupt: enabled
 - Watchdog Timer: disabled
 
 |Pin           | Configuration      |
