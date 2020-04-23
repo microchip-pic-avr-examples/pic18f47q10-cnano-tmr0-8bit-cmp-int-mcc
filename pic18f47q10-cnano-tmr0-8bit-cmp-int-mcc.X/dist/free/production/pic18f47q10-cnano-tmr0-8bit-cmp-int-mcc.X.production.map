@@ -6,7 +6,7 @@ Linker command line:
   -cs \
   -h+dist/free/production\pic18f47q10-cnano-tmr0-8bit-cmp-int-mcc.X.production.sym \
   --cmf=dist/free/production\pic18f47q10-cnano-tmr0-8bit-cmp-int-mcc.X.production.cmf \
-  -z -Q18F47Q10 -oC:\Users\M17319\AppData\Local\Temp\sdp0.2 \
+  -z -Q18F47Q10 -oC:\Users\M17319\AppData\Local\Temp\sfe0.2 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/free/production/pic18f47q10-cnano-tmr0-8bit-cmp-int-mcc.X.production.map \
   -E1 -ver=XC8 --acfsm=1493 -ASTACK=060h-0CFFh -pstack=STACK \
@@ -28,7 +28,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\M17319\AppData\Local\Temp\sdp0.o \
+  C:\Users\M17319\AppData\Local\Temp\sfe0.o \
   dist/free/production\pic18f47q10-cnano-tmr0-8bit-cmp-int-mcc.X.production.o 
 
 Object code version is 3.11
@@ -41,7 +41,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\M17319\AppData\Local\Temp\sdp0.o
+C:\Users\M17319\AppData\Local\Temp\sfe0.o
                 init                                 40       40        4        4       0
                 reset_vec                             0        0        4        0       0
                 idloc                            200000   200000      100   200000       0

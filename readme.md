@@ -1,23 +1,29 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a></p>
+ <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
 
-# PIC18F47Q10 Using TMR0 in 8-bit Mode with Periodic Interrupt:
+
+# PIC18F47Q10 Using TMR0 in 8-bit Mode with Periodic Interrupt
 
 
 ## Objective:
-This example describes how to configure Timer0 in 8-bit mode and to generate a compare interrupt every 100 ms
-using LFINTOSC as clock source. A GPIO pin (the development board’s on-board LED) will be configured as output
-and toggled each time the interrupt occurs. Additionally, the main clock will use a separate clock source (HFINTOSC)
-and Timer0 will run asynchronously from the main clock. The code was generated using MPLAB Code Configurator.
+This repository contains an example of MCC-generated source code for TMR0 as described in [*TBxxxx - Getting Started with Timers/Counters on PIC18*](https://www.microchip.com/) document from Microchip.
 
-## Resources:
-- Technical Brief Link [(linkTBD)](http://www.microchip.com/)
+<br>This example describes how to configure Timer0 in 8-bit mode and to generate a compare interrupt every 100 ms
+using LFINTOSC as clock source.
+<br>A GPIO pin (the development board’s on-board LED) will be configured as output and toggled each time the interrupt occurs. <br>Additionally, the main clock will use a separate clock source (HFINTOSC) and Timer0 will run asynchronously from the main clock. The code was generated using MPLAB Code Configurator.
+
+## Related Documentation
+- [TBxxxx - Getting Started with Timers/Counters on PIC18](http://www.microchip.com/)
+- [PIC18-Q10 Product Family Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family)
+- [PIC18F47Q10 Data Sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf)
+- [PIC18F47Q10 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=pic18f47q10-cnano&type=&language=)
+
+## Software Used
 - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 2.10 or newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+- MPLAB® XC8 2.10 or newer [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
 - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- MPLAB® Code Configurator PIC10/PIC12/PIC16/PIC18 library v1.79.0 [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-- [PIC18F47Q10 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf) for more information or specifications.
+- MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs 1.79.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- Microchip PIC18F-Q Series Device Support 1.3.89 or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
 
 ## Hardware Configuration:
 
@@ -42,6 +48,6 @@ The following configurations must be made for this project:
 - Watchdog Timer: disabled
 
 ## Demo:
-Run the code, LED0 will toggle at a rate of 100ms. 
+Run the code, LED0 will toggle at a rate of 100ms.
 
 <img src="images/TMR0_8bit_cmp_int.gif" alt="Hardware Setup"/>
