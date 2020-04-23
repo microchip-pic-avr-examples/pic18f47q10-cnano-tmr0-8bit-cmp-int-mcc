@@ -35,7 +35,6 @@ The PIC18F47Q10 Curiosity Nano Development Board is used as the test platform.
 <br><img src="images/PIC18F47Q10_CNANO.png" width="600">
 
 The following configurations must be made for this project:
-
 - Clock
  - Oscillator Select: HFINTOSC
  - HF Internal Clock: 1 MHz
